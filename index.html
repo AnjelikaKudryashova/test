@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <title>Заголовок страницы</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="top">
+        <button class="nav-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+        <div class="header">
+          
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">UM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Author</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Album</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Technology</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.header -->
+      </div>
+      <!-- /.top -->
+     <div class="container-fluid">
+      <div class="row">
+        <div class="col-10 col-md-7 col-sm-8">
+          <div class="main-text">
+           <h1>Ночная смена</h1>
+           <p>Холл с наслаждением затягивался сигаретой, развалившись на  небольшой 
+            скамье недалеко от элеватора.  Скамья  эта  была  единственным  местом  на 
+            третьем этаже, где можно было спокойно перекурить и ненадолго отвлечься от 
+          работы, не опасаясь появления начальства. </p> 
+          <h2>Неожидання встреча</h2>
+          <p>Именно в этот момент и  появился зловредный  Уорвик.  Холл  совершенно  
+            не  ожидал  увидеть шефа и был, естественно, совсем не рад  этой  неожиданной  
+            встрече,  рассчитывая, что Уорвик может появиться там никак не раньше трех. <br>
+            Да и вообще,  он редко показывался на рабочих местах во время ночной 
+            смены. Особенно на третьем этаже. В это время он предпочитал, обычно, 
+            отсиживаться <br>
+            в  своем офисе попивать кофе из своего любимого электрического кофейника, 
+            который стоял у него прямо на рабочем столе. Кроме того, в последнее время 
+            стояла  ужасная жара и, в связи с этим, выше первого этажа Уорвик обычно не 
+            поднимался.
+          </p>
+          <p>В комнате находились различные предметы: <br>
+            стул; <br>
+            стол; <br>
+          светильник.</p>
+          <img src="img/main_text_img.jpg" class="main-img" alt="man">
+          </div>
+          <!-- /.main-text -->
+        </div>
+      </div>
+     </div>
+     <!-- /.container-fluid -->
+     <div class="footer">
+       <div class="copyright">
+       <p>&copy; 2003-2008 Advice</p>
+       </div>
+     </div>
+     <!-- /.footer -->
+    </div>
+    <!-- /.main -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+       var navBtn = $('.nav-btn');
+       var menu = $('.header');
+
+       navBtn.on('click', function() {
+        menu.slideToggle();
+        $('i').toggleClass('fa-bars').toggleClass('fa-times');
+      })
+     });
+    </script>
+  </body>
+</html>
