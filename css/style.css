@@ -14,7 +14,7 @@ body {
 .main {
   height: 100%;
   min-height: 100vh;
-  background: url("../img/bitmap.jpg") no-repeat;
+  background: url("../img/Bitmap.jpg") no-repeat;
   background-size: cover;
   background-position: top;
   position: relative;
